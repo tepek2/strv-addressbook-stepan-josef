@@ -1,0 +1,26 @@
+{
+    "server": {
+        "port": 3000,
+        "host": "localhost"
+    },
+    "logs": {
+        "level": 1,
+        "filePath": null
+    },
+    "db": {
+        "connectionLimit": 5,
+        "host": "xxxx",
+        "port": 3306,
+        "user": "xxxx",
+        "password": "xxxx",
+        "database": "strv",
+        "queryTimeoutMS": 30000,
+        "dialect": "mysql"
+    },
+    "mailer": {
+        "user": "xxxx",
+        "password": "xxxx"
+    },
+    "tokenSecret": "neco",
+    "resetSecret": "neco2"
+}
